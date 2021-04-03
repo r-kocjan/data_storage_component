@@ -30,6 +30,28 @@ body{
     left: 50%;
     transform: translate(-50%,-50%);
     display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.fylo{
+    background-color: var(--dark-blue);
+    padding: 4.5rem 3rem;
+    border-radius: 1rem;
+    border-top-right-radius: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3rem;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav img{
+    
 }
 
 
