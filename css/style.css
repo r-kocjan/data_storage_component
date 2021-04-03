@@ -8,7 +8,17 @@
     --dark-blue: rgb(29, 44, 103);
     --very-dark-blue: rgb(12, 18, 44);
 }
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
 
 
 
