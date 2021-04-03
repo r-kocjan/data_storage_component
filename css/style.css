@@ -66,14 +66,15 @@ body{
 
 
 .storage{
-    padding: 3rem 3rem;
+    padding: 5rem 3rem;
     background-color: var(--dark-blue);
     border-radius: 1rem;
     color: var(--pale-blue);
     text-align: center;
     display: flex;
     flex-direction: column;
-    gap: 1.3rem;
+    gap: 2rem;
+    position: relative;
 }
 h3{
     font-size: 1.6rem;
@@ -107,14 +108,37 @@ h3 span{
     width: 1.1rem;
     background-color: var(--pale-blue);
     border-radius: 50%;
-    display: block;
-    transform: translate(-120%,-8%);
+    transform: translateX(-130%);
 }
 .gb{
     display: flex;
     font-weight: 700;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     justify-content: space-between;
+}
+.remaining{
+    background-color: #fff;
+    width: 65%;
+    padding: 1.5rem 2rem;
+    border-radius: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    position: absolute;
+    bottom: -32%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+}
+h2{
+    color: var(--very-dark-blue);
+    font-size: 3rem;
+}
+.remaining span{
+    color: var(--grayish-blue);
+    font-weight: 700;
+    font-size: 1.5rem;
+    
 }
 
 
