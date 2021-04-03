@@ -19,14 +19,14 @@ html{
 body{
     font-family: 'Raleway', sans-serif;
     background-image: url("../images/bg-mobile.png");
-    background-size: cover;
+    background-size: 140%;
     background-repeat: no-repeat;
     height: 100vh;
 }
 .container{
     width: 90%;
     position: absolute;
-    top: 35%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%,-50%);
     display: flex;
@@ -62,8 +62,59 @@ body{
     filter: brightness(150%);
 }
 
-.nav img{
- 
+/* STORAGE */
+
+
+.storage{
+    padding: 3rem 3rem;
+    background-color: var(--dark-blue);
+    border-radius: 1rem;
+    color: var(--pale-blue);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+}
+h3{
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+h3 span{
+    font-weight: 700;
+}
+.slider{
+    height: 2.3rem;
+    width: 100%;
+    background-color: rgba(12, 18, 44,.5);
+    border-radius: 5rem;
+    display: flex;
+    padding: 1rem .5rem;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.slider:before{
+    content: "";
+    display: inline-block;
+    height: 1.4rem;
+    width: 81.5%;
+    border-radius: 5rem;
+    background-image: linear-gradient(to right, var(--gradient-left), var(--gradient-right));
+}
+.slider:after{
+    content: "";
+    height: 1.1rem;
+    width: 1.1rem;
+    background-color: var(--pale-blue);
+    border-radius: 50%;
+    display: block;
+    transform: translate(-120%,-8%);
+}
+.gb{
+    display: flex;
+    font-weight: 700;
+    font-size: 1.2rem;
+    justify-content: space-between;
 }
 
 
